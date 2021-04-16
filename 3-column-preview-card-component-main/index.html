@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | 3-column preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+        body {
+            font-family: 'Open Sans Condensed', sans-serif;
+            color: hsl(0, 0%, 95%);
+            background-color: hsl(0, 0%, 95%);
+        }
+        
+        p {
+            color: hsla(0, 0%, 100%, 0.75);
+        }
+        
+        .attribution {
+            color: black;
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-weight: bolder;
+        }
+        
+        .content {
+            width: 700px;
+            height: auto;
+            background-color: #f2f2f2;
+            padding: 50px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .single-container {
+            max-width: 200px;
+            width: 100%;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 1;
+        }
+        
+        .button-container {
+            margin-top: 150px;
+            align-items: center;
+        }
+        
+        button {
+            border: 1px solid white;
+            width: 100px;
+            padding: 10px;
+            border-radius: 20px;
+            color: white;
+        }
+        
+        button.button-btn:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        
+        .single-container .text-container {
+            height: 150px;
+        }
+        
+        .button-btn:focus {
+            outline: 0 !important;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+        
+        @media (max-width: 480px) {
+            .content {
+                flex-direction: column;
+                align-items: center;
+                max-width: 480px;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            .content {
+                align-items: center;
+                max-width: 600px;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+        }
+        
+        @media (min-width: 900px) {
+            .content {
+                position: fixed;
+                top: 10%;
+                left: 19%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Gokulakrishnan</a>.
+    </div>
+    <div class="content">
+        <div class="single-container first" style="background-color:hsl(31, 77%, 52%)">
+            <div class="logo-holder">
+                <object data="./images/icon-sedans.svg" height="50px" width="50px"></object>
+            </div>
+            <div class="text-container">
+                <h1>SEDANS </h1>
+
+                <p>
+                    Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip.
+                </p>
+            </div>
+            <div class="button-container">
+                <button class="button-btn" style="background: hsl(31, 77%, 52%);font-weight: bold;">Learn More</button>
+            </div>
+        </div>
+
+        <div class="single-container second" style="background-color: hsl(184, 100%, 22%)">
+            <div class="logo-holder">
+                <object data="./images/icon-suvs.svg" height="50px" width="50px"></object>
+            </div>
+            <div class="text-container">
+                <h1>SUVS </h1>
+
+                <p>
+                    Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures. </p>
+            </div>
+            <div class="button-container">
+                <button class="button-btn" style="background: hsl(184, 100%, 22%);font-weight: bold;">Learn More</button>
+            </div>
+        </div>
+
+        <div class="single-container third" style="background-color: hsl(179, 100%, 13%)">
+            <div class="logo-holder">
+                <object data="./images/icon-luxury.svg" height="50px" width="50px"></object>
+            </div>
+            <div class="text-container">
+                <h1>LUXURY</h1>
+
+                <p>
+                    Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental arrive in style.
+                </p>
+            </div>
+            <div class="button-container">
+                <button class="button-btn" style="background:hsl(179, 100%, 13%);color:white;font-weight:  bold;"> Learn More</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
