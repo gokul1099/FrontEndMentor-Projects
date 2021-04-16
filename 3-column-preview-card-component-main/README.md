@@ -33,7 +33,7 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@gokul1099](https://www.frontendmentor.io/profile/gokul1099)
-- LinkedIn - [@gokul1099](https://www.linkedin.com/gokul1099)
+- LinkedIn - [@gokul1099](https://www.linkedin.com/in/gokul1099/)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
