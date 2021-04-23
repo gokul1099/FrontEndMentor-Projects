@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [live site URL ](https://gokul1099.github.io/FrontEndMentor-Projects/3-column-preview-card-component-main/)
+- Live Site URL: [live site URL ](https://gokul1099.github.io/FrontEndMentor-Projects/social-proof-section-master)
 
 
 ### Built with
