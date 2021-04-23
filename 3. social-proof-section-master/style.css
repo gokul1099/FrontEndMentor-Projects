@@ -1,0 +1,346 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap');
+html,
+body{
+    margin: 0;
+    padding:0;
+    font-family:'Spartan', sans-serif; ;
+    font-size: 15px;
+}
+.container{
+    max-width: 1100px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.header-content{
+    max-width: 400px;
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    padding:50px;
+}
+.five-star-rating{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    background-color: hsl(300, 24%, 96%);
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+
+}
+.title h1{
+    color:hsl(300, 43%, 22%);
+}
+p{
+    color: hsl(303, 10%, 53%);
+}
+.ratings{
+    margin-top: 70px;
+}
+.five-stars{
+    justify-content: center;
+    align-items: center;
+
+}
+.five-stars img{
+    width: 20px;
+    height: 20px;
+}
+.second-rating{
+    position: relative;
+    left:70px;
+}
+.third-rating{
+    position: relative;
+    left: 140px;
+}
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    max-width: 1100px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: white;
+    padding-left: 50px;
+}
+.profiles{
+    padding-left: 40px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding:10px;
+    height: 250px;
+
+}
+.profiles p{
+    color: hsl(300, 24%, 96%);
+}
+.image-name{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.profile-img{
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.profile-name{
+    color: white;
+    font-size: 25px;
+    
+}
+.profile-reviews{
+    color: hsl(303, 10%, 53%);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h3{
+    color: hsl(303, 10%, 53%);
+}
+.second-profile{
+    position: relative;
+    top:25px;
+
+}
+.third-profile{
+    position: relative;
+    top:50px;
+
+}
+.attribution{
+    margin-top: 50px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 375px) {
+    .container{
+        width: 100%;
+        margin:0;
+        padding:0;
+        flex-direction: column;
+    }
+    .header-content{
+        
+        width: 100%;
+        flex-direction: column;
+        padding:20px;
+        text-align: center;
+    }
+    .five-star-rating{
+        margin-left: 20px;
+        flex-direction: column;
+        margin:20px;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-rating{
+        left:0;
+    }
+    .third-rating{
+    
+        left: 0;
+    }
+    .profile-section{
+        flex-direction: column;
+        padding:20px;
+
+    }
+    .profiles{
+        padding:0px;
+    }
+    .image-name{
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    .profile-review{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .second-profile{
+        top:0;
+
+    }
+    .third-profile{
+        top:0;
+        
+    }
+}
+@media only screen and (max-width: 475px) {
+    .container{
+        width: 100%;
+        margin: 0;
+        padding:0;
+        flex-direction: column;
+    }
+    .header-content{
+        width: 100%;
+        flex-direction: column;
+        padding:20px;
+        text-align: center;
+    }
+    .five-star-rating{
+        flex-direction: column;
+        margin:20px;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-rating{
+        left:0;
+    }
+    .third-rating{
+    
+        left: 0;
+    }
+    .profile-section{
+        flex-direction: column;
+        padding:20px;
+
+    }
+    .profiles{
+        padding:0;
+    }
+    .image-name{
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    .profile-review{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .second-profile{
+        top:0;
+
+    }
+    .third-profile{
+        top:0;
+        
+    }
+}
+    
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+        margin: 0;
+        padding:0;
+        flex-direction: column;
+    }
+    .header-content{
+        width: 100%;
+        flex-direction: column;
+        padding:20px;
+        text-align: center;
+    }
+    .five-star-rating{
+        flex-direction: column;
+        margin:20px;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-rating{
+        left:0;
+    }
+    .third-rating{
+    
+        left: 0;
+    }
+    .profile-section{
+        flex-direction: column;
+        padding:20px;
+
+    }
+    .profiles{
+        padding:0;
+    }
+    .image-name{
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    .profile-review{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .second-profile{
+        top:0;
+
+    }
+    .third-profile{
+        top:0;
+        
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+        margin: 0;
+        padding:0;
+        flex-direction: column;
+    }
+    .header-content{
+        max-width: 600px;
+        width: 100%;
+        flex-direction: column;
+        padding:20px;
+        text-align: center;
+    }
+    .five-star-rating{
+        flex-direction: column;
+        margin:20px;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .second-rating{
+        left:0;
+    }
+    .third-rating{
+    
+        left: 0;
+    }
+    .profile-section{
+        flex-direction: column;
+        padding:20px;
+
+    }
+    .profiles{
+        padding:0;
+    }
+    .image-name{
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    .profile-review{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .second-profile{
+        top:0;
+
+    }
+    .third-profile{
+        top:0;
+        
+    }
+}
+
+
