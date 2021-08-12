@@ -1,0 +1,133 @@
+body{
+    margin:0;
+    padding: 0;
+}
+p{
+    font-size: 3vh;
+    line-height: normal;
+}
+h2{
+    font-size: 6vh;
+    margin-top:7rem;
+}
+/* header{
+    background-color: rgba(62,191,255,255)
+    ;
+} */
+/* -- navbar -- */
+ul{
+    list-style-type: none;
+    color:white;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    position:absolute;
+    width: 100%;
+    
+    
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+}
+.item{
+    margin-right: 20px;
+}
+
+/* ---header-image ---*/
+.header-image{
+    background: url("./images/desktop/image-header.jpg") center;
+    background-size: cover;
+    min-width: 100%;
+    width: 100%;
+    height: 700px;
+}
+.header-title{
+    position:absolute;
+    top:10vh;
+    justify-content: center;
+    color:white;
+    text-transform:uppercase;
+    word-wrap: break-word;
+    font-size: 10vh;
+    text-align: center;
+}
+.arrow-line:{
+    background-image: url("./images/icon-arrow-down.svg") ;
+    
+}
+
+/* -- contents-- */
+.content-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    height: auto;
+    align-items: stretch;
+}
+.content-text{
+    text-align: center;
+    padding: 20px;
+    word-wrap: break-word;
+    font-size: 3vh;
+    line-height: 40px;
+    height: 400px;
+    width: 40vw;
+    
+}
+.bg-img{
+    position:absolute;
+    top:12rem;
+    width: 90vh;
+    
+}
+.bg-img h1{
+    font-size: 4vh ;
+
+}
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.content-para{
+    margin: 5vh;
+}
+.content-image{
+    width: 50%;
+    height: 100%;
+}
+
+
+
+/* --- testimonials --*/
+.testimonial{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+    flex-wrap: wrap;
+}
+.client-container{
+    max-width: 50vw;
+}
+
+/* --footer--*/
+.footer-image{
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+}
+/*--- responsivedesign */
