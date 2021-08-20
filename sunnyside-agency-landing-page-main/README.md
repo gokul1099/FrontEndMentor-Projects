@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://gokul1099.github.io/FrontEndMentor-Projects/sunnyside-agency-landing-page-main/)
+- Live Site URL: (https://gokul1099.github.io/FrontEndMentor-Projects/sunnyside-agency-landing-page-main/)
 
 ## My process
 
