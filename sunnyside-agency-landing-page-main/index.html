@@ -5,11 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-  <title>Frontend Mentor | Sunnyside agency landing page</title>
+  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <title>Frontend Mentor | Sunnyside agency landing page
+  </title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -25,195 +28,181 @@
 </head>
 
 <body>
-  <header>
-    <nav class="nav-bar">
+  <nav class="nav-bar">
+    <ul>
+      <li class="navbar-logo"><a href="#">sunnyside</a></li>
+      <li class="navbar-toggle"><i class="fas fa-bars"></i></li>
+      <li class="navbar-links">
+        <div class="item"><a href="#">About</a></div>
+      </li>
+      <li class="navbar-links">
+        <div class="item"><a href="#">Serives</a></div>
+      </li>
+      <li class="navbar-links">
+        <div class="item"><a href="#">Projects</a></div>
+      </li>
+      <li class="navbar-links">
+        <div class="item"><a href="#">Contact</a></div>
+      </li>
+    </ul>
+  </nav>
+  <div class="banner">
+    <header class="header-container">
+    </header>
+    <div class="head-content">
+      <h1>WE ARE CREATIVES</h1>
       <div>
-        <h1 class="title">sunnyside</h1>
+        <img src="images/icon-arrow-down.svg">
       </div>
-      <div>
-        <ul class="nav-items">
-          <li class="item">About</li>
-          <li class="item">Services</li>
-          <li class="item">Projects</li>
-          <li class="item">Contact</li>
-        </ul>
-      </div>
+    </div>
 
-    </nav>
-  </header>
-  <div class="header-container">
-    <div class="header-image">
-      <h1 class="header-title">We are creatives</h1>
-      <div class="arow-line"></div>
-    </div>
   </div>
-  <div class="content-container">
-    <div class="content-image">
-      <img src="./images/desktop/image-transform.jpg" height="100%" width="100%">
+  <!--Section 1-->
+  <section class="section section_1">
+    <div class="contentBx">
+      <h2 class="heading">Transform your brand</h2>
+      <p class="text">
+        We are a full-service creative agency specializing in helping brands grow fast.
+        Engage your clients through compelling visuals that do most of the marketing for you.
+      </p>
+      <h3 class="heading_1">Learn More</h3>
+      <div class="underline"></div>
     </div>
-    <div class="content-text">
-      <div class="content-title">
-        <h1>Transform your brand</h1>
-      </div>
-      <div class="content-para">
-        <p>
-          We are a full-service create agency specializing in helping
-          brands grow fast. Engage your client through compelling visuals
-          that do most of the marketing for you.
+    <div class="imgBx_1 img_1">
+
+    </div>
+  </section>
+  <!--section 2-->
+  <section class="section section_2">
+    <div class="imgBx_2 img_1">
+
+    </div>
+    <div class="contentBx">
+      <h2 class="heading"> Stand out to the right audience
+      </h2>
+      <p class="text">
+        Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll
+        build
+        and extend your brand in digital places.
+
+      </p>
+      <h3 class="heading_1">Learn More</h3>
+      <div class="underline"></div>
+    </div>
+
+  </section>
+  <!--section 3-->
+  <section class="section section-3">
+    <div class="imgBx_3 img_1">
+      <div class="content">
+        <h2 style="color:hsl(167, 40%, 24%);" class="heading">Graphic design</h2>
+        <p style="color:hsl(167, 40%, 24%);" class="text"> Great design makes you memorable. We deliver artwork that
+          underscores your brand message and
+          captures potential
+          clients’ attention.
         </p>
-
-        <h2>Learn More</h2>
       </div>
     </div>
-  </div>
-  <!-- second content -->
-  <div class="content-container">
-
-    <div class="content-text">
-      <div class="content-title">
-        <h1> Stand out to the right audience</h1>
-      </div>
-      <div class="content-para">
-        <p>
-          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters,
-          we’ll build
-          and extend your brand in digital places.
+    <div class="imgBx_4 img_1">
+      <div class="content">
+        <h2 style="color:hsl(198, 62%, 26%)" class="heading">Photography</h2>
+        <p style="color:hsl(198, 62%, 26%)" class="text"> Increase your credibility by getting the most stunning,
+          high-quality photos that improve your
+          business image.
         </p>
-
-        <h2>Learn More</h2>
       </div>
     </div>
-    <div class="content-image">
-      <img src="./images/desktop/image-stand-out.jpg" height="100%" width="100%">
-    </div>
-  </div>
-
-  <div class="contents">
-    <div class="content-container">
-      <div class="content-image">
-        <img src="./images/desktop/image-graphic-design.jpg" height="100%" width="100%">
-        <div class="content-text bg-img">
-          <div class="content-title">
-            <h1> Graphic design</h1>
-          </div>
-          <div class="content-para">
-            <p> Great design makes you memorable. We deliver artwork that underscores your brand message and captures
-              potential
-              clients’ attention. </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="content-container ">
-      <div class="content-image">
-        <img src="./images/desktop/image-photography.jpg" height="100%" width="100%">
-        <div class="content-text bg-img">
-          <div class="content-title">
-            <h1> Photography</h1>
-          </div>
-          <div class="content-para">
-            <p> Increase your credibility by getting the most stunning, high-quality photos that improve your business
-              image.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="testimonial">
-    <h1 class="testimonial-header">CLIENT TESTIMONIALS</h1>
-    <div class="testimonial-container">
-      <div class="client-container">
-        <div class="client-image">
-          <img src="./images/image-emily.jpg" height="100px" width="100px">
-        </div>
-        <div class="client-para">
-          <p> We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always
-            hit.
+    <!--testimonials-->
+    <section class="testimonials">
+      <h2 class="heading">CLIENT TESTIMONIALS</h2>
+      <div class="items">
+        <div class="container">
+          <div class="imgBx_5 img"></div>
+          <p class="text"> We put our trust in Sunnyside and they delivered, making sure our needs were met and
+            deadlines
+            were always hit.
           </p>
+          <h3 class="heading_2">
+            Emily R.
+          </h3>
+          <h3>
+            Marketing Director
+          </h3>
         </div>
-        <div class="client-name">
-          <h3>Emily R</h3>
-        </div>
-        <div class="client-char">
-          <h4>Marketing Director</h4>
-        </div>
-      </div>
 
-
-      <div class="client-container">
-        <div class="client-image">
-          <img src="./images/image-thomas.jpg" height="100px" width="100px">
-        </div>
-        <div class="client-para">
-          <p> Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
-            enjoyable
+        <div class="container">
+          <div class="imgBx_6 img"></div>
+          <p class="text"> Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a
+            satisfying and enjoyable
             experience.
           </p>
+          <h3 class="heading_2">
+            Thomas S.
+          </h3>
+          <h3>
+            Chief Operating Officer
+          </h3>
         </div>
-        <div class="client-name">
-          <h3>Thomas S</h3>
-        </div>
-        <div class="client-char">
-          <h4>Chief Operating Officer</h4>
-        </div>
-      </div>
 
-      <div class="client-container">
-        <div class="client-image">
-          <img src="./images/image-jennie.jpg" height="100px" width="100px">
-        </div>
-        <div class="client-para">
-          <p> Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+        <div class="container">
+          <div class="imgBx_7 img"></div>
+          <p class="text"> Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly
+            recommended!
+
           </p>
-        </div>
-        <div class="client-name">
-          <h3>Jennie F.</h3>
-        </div>
-        <div class="client-char">
-          <h4> Business Owner</h4>
+          <h3 class="heading_2">
+            Jennie F.
+          </h3>
+          <h3>
+            Business Owner
+          </h3>
         </div>
       </div>
+    </section>
+  </section>
+  <section class="final-section">
+    <div class="imgBx_8 img"></div>
+    <div class="imgBx_9 img"></div>
+    <div class="imgBx_10 img"></div>
+    <div class="imgBx_11 img"></div>
+  </section>
+  <footer class="footer">
+    <div class="footer-title">
+      <h3>sunnyside</h3>
     </div>
-  </div>
-  <div class="footer-image">
-
-    <div class="image">
-      <img src="images/desktop/image-gallery-milkbottles.jpg" height="265px" width="265px">
+    <div class="footer-items">
+      <div class="footer-item">
+        <h3>About</h3>
+      </div>
+      <div class="footer-item">
+        <h3>Services</h3>
+      </div>
+      <div class="footer-item">
+        <h3>Project</h3>
+      </div>
     </div>
-    <div class="image">
-      <img src="images/desktop/image-gallery-orange.jpg" height="265px" width="265px">
+    <div class="footer-icons">
+      <img class="icon" src="./images/icon-instagram.svg" />
+      <img class="icon" src="./images/icon-pinterest.svg" />
+      <img class="icon" src="./images/icon-twitter.svg" />
+      <img class="icon" src="./images/icon-facebook.svg" />
     </div>
 
-    <div class="image">
-      <img src="images/desktop/image-gallery-cone.jpg" height="265px" width="265px">
-    </div>
-    <div class="image">
-      <img src="images/desktop/image-gallery-sugarcubes.jpg
-  " height="265px" width="265px">
-    </div>
-
-
-  </div>
-
-
-
-
-
-
-
-  About
-  Services
-  Projects
-  Contact
+  </footer>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
+<script>
+  const toggleButton = document.getElementsByClassName("navbar-toggle")[0];
+  const navbarLinks = document.getElementsByClassName("navbar-links");
+  toggleButton.addEventListener('click', function () {
+    for (var i = 0; i < navbarLinks.length; i++) {
+      navbarLinks[i].classList.toggle('active')
+    }
+  })
+</script>
 
 </html>
